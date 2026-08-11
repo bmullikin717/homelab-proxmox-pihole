@@ -1,6 +1,6 @@
 # Homelab Build Log: Proxmox VE + Pi-hole
 
-**Author:** [Your Name]
+**Author:** Brendyn Mullikin
 **Project Start Date:** July 27, 2026
 **Status:** Complete — live in production on home network
 
@@ -46,7 +46,7 @@ This project documents the setup of a home virtualization lab using **Proxmox VE
 
 ### Phase 1: Hardware & BIOS Preparation
 
-**Date:** [fill in]
+**Date:** 7-27-26
 
 **Goal:** Confirm the laptop supports hardware virtualization and prepare it to boot from USB installer media.
 
@@ -68,7 +68,7 @@ Proxmox VE requires a CPU with hardware virtualization extensions (Intel VT-x or
 
 ### Phase 2: Creating Bootable Installer Media
 
-**Date:** [fill in]
+**Date:** 7-27-26
 
 **Goal:** Create a bootable USB drive containing the Proxmox VE 9.2 installer.
 
@@ -94,7 +94,7 @@ Understanding ISO hybrid images and the difference between ISO mode vs. DD (raw)
 
 ### Phase 3: Proxmox VE Installation
 
-**Date:** [fill in]
+**Date:** 7-27-26
 
 **Goal:** Install Proxmox VE onto the laptop's SSD, wiping Windows 10.
 
@@ -127,7 +127,7 @@ This phase covers disk partitioning/filesystem choice (ext4 vs. ZFS — relevant
 
 ### Phase 4: Post-Install Configuration
 
-**Date:** [fill in]
+**Date:** 7-27-26
 
 **Goal:** Access the Proxmox web GUI, apply updates, and configure repositories correctly.
 
@@ -191,7 +191,7 @@ This entire sequence is a realistic troubleshooting scenario covering IP address
 
 ### Phase 5: Creating the Pi-hole Container
 
-**Date:** [fill in]
+**Date:** 7-30-26
 
 **Goal:** Deploy an LXC container to host Pi-hole.
 
@@ -228,7 +228,7 @@ This phase covers LXC container creation/sizing (right-sizing CPU/RAM/disk for a
 
 ### Phase 6: Installing & Configuring Pi-hole
 
-**Date:** [fill in]
+**Date:** 7-30-26
 
 **Goal:** Install Pi-hole inside the container and configure it as the network's DNS server.
 
@@ -251,7 +251,7 @@ This is a great example of a modern networking gotcha that didn't exist a few ye
 
 ### Phase 7: Router Configuration & Network-Wide Deployment
 
-**Date:** [fill in]
+**Date:** 8-10-26
 
 **Goal:** Point the home network's DHCP/DNS settings at the Pi-hole container so all devices use it automatically.
 
@@ -286,7 +286,7 @@ This is a good example of **not over-engineering a solution** — the original p
 
 ### Phase 8: Testing & Verification
 
-**Date:** [fill in]
+**Date:** 8-10-26
 
 **Goal:** Confirm ad-blocking is functioning network-wide and Pi-hole's dashboard shows query logs.
 
